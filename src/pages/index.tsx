@@ -32,13 +32,7 @@ const Home: NextPage = () => {
 
           <img src="/image/avatar.svg" alt="the girl cod" />
         </div>
-
-        <span>EAD</span>
       </main>
-
-      {/* <main className={styles.cardContainer}>
-        <h2>All Post</h2>
-      </main> */}
     </>
   );
 };
