@@ -15,6 +15,9 @@ import {
   CardTitle,
   MainContent,
   LinkContainer,
+  NewsletterContainer,
+  HeaderArticles,
+  InputContainer,
 } from "../styles/homeStyles";
 
 import { FiArrowRight } from "react-icons/fi";
@@ -54,7 +57,15 @@ const Home: NextPage = () => {
 
       <MainContainer>
         <MainContent>
-          <h2>Artigos em destaques</h2>
+          <HeaderArticles>
+            <h2>Artigos em destaques</h2>
+            <LinkContainer>
+              <a href="#">Todos artigos</a>
+
+              <FiArrowRight />
+            </LinkContainer>
+          </HeaderArticles>
+
           <CardContainer>
             <Card>
               <CardImage
@@ -96,14 +107,26 @@ const Home: NextPage = () => {
               </CardTitle>
             </Card>
           </CardContainer>
-
-          <LinkContainer>
-            <a href="#">Todos artigos</a>
-
-            <FiArrowRight />
-          </LinkContainer>
         </MainContent>
       </MainContainer>
+
+      <MainContainer>
+        <NewsletterContainer>
+          <h2>Subscribe to the newsletter</h2>
+          <p>
+            Get emails from me about web development, tech, and early access to
+            new articles.
+          </p>
+
+          <InputContainer>
+            <input placeholder="Ex: edvaldo@eadafonso.com" />
+
+            <button>Subscrever</button>
+          </InputContainer>
+        </NewsletterContainer>
+      </MainContainer>
+
+      <MainContainer>Spotify</MainContainer>
     </>
   );
 };
