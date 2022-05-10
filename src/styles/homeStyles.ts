@@ -1,0 +1,89 @@
+import { styled } from "@stitches/react";
+
+export const MainContainer = styled("main", {
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "space-between",
+
+  marginTop: "2rem",
+});
+
+export const InfoContainer = styled("div", {
+  paddingTop: "2rem",
+  paddingBottom: "2rem",
+  width: "55%",
+});
+
+export const Text = styled("p", {
+  marginTop: 20,
+  marginBottom: 15,
+});
+
+export const AvatarContainer = styled("div", {
+  width: "45%",
+
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "flex-end",
+});
+
+export const Avatar = styled("img", {
+  width: "130px",
+  height: "130px",
+  borderRadius: 65,
+});
+
+export const List = styled("ul", {
+  marginTop: "15px",
+  listStyle: "initial",
+  paddingLeft: 40,
+});
+
+export const ListItem = styled("li", {
+  marginTop: "15px",
+  marginBottom: "15px",
+});
+
+export const MainContent = styled("div", {
+  width: "100%",
+  display: "flex",
+  flexDirection: "column",
+});
+
+export const CardContainer = styled("div", {
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "flex-start",
+  marginTop: 40,
+});
+
+export const Card = styled("div", {
+  width: "250px",
+  height: "230px",
+  marginRight: 30,
+
+  "&:last-child": {
+    marginRight: 0,
+  },
+});
+
+export const CardImage = styled("img", {
+  width: "100%",
+  height: "150px",
+});
+
+export const CardTitle = styled("h2", {
+  fontSize: "1rem",
+  marginTop: 15,
+});
+
+export const LinkContainer = styled("div", {
+  display: "flex",
+  alignItems: "center",
+  marginTop: 35,
+  marginBottom: 35,
+
+  svg: {
+    marginLeft: 20,
+  },
+});

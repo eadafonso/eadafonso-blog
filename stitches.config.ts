@@ -3,8 +3,8 @@ import { createStitches } from "@stitches/react";
 export const { styled, getCssText, createTheme, globalCss } = createStitches({
   theme: {
     colors: {
-      text: "black",
-      background: "white",
+      text: "#111111",
+      background: "#f6f6f6",
     },
   },
 });
@@ -25,7 +25,27 @@ export const GlobalStyles = globalCss({
   body: {
     background: "$background",
     color: "$text",
+    fontFamily: "DM Sans",
+    maxWidth: "1000px",
+    marginLeft: "auto",
+    marginRight: "auto",
+    marginTop: 0,
+    marginBottom: 0,
+  },
+
+  ul: {
+    listStyle: "none",
+  },
+
+  a: {
+    textDecoration: "none",
+    color: "inherit",
+  },
+
+  list: {
+    background: "red",
   },
 });
+
 //You can declare the styles here or in pages/_app.tsx
 GlobalStyles();
