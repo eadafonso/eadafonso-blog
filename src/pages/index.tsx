@@ -18,9 +18,12 @@ import {
   NewsletterContainer,
   HeaderArticles,
   InputContainer,
+  PlayContainer,
 } from "../styles/homeStyles";
 
 import { FiArrowRight } from "react-icons/fi";
+
+import { SiSpotify } from "react-icons/si";
 
 const Home: NextPage = () => {
   return (
@@ -126,7 +129,17 @@ const Home: NextPage = () => {
         </NewsletterContainer>
       </MainContainer>
 
-      <MainContainer>Spotify</MainContainer>
+      <MainContainer>
+        <PlayContainer>
+          <div>
+            <SiSpotify size={22} />
+
+            <span>
+              <b>Not Playing</b> - Spotify
+            </span>
+          </div>
+        </PlayContainer>
+      </MainContainer>
     </>
   );
 };
