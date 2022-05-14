@@ -151,16 +151,3 @@ export const InputContainer = styled("div", {
     },
   },
 });
-
-export const PlayContainer = styled("div", {
-  width: "100%",
-
-  div: {
-    display: "flex",
-    alignItems: "center",
-
-    svg: {
-      marginRight: 20,
-    },
-  },
-});
