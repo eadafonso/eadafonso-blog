@@ -18,12 +18,10 @@ import {
   NewsletterContainer,
   HeaderArticles,
   InputContainer,
-  PlayContainer,
 } from "../styles/homeStyles";
 
 import { FiArrowRight } from "react-icons/fi";
-
-import { SiSpotify } from "react-icons/si";
+import { NowPlaying } from "../components/NowPlaying";
 
 const Home: NextPage = () => {
   return (
@@ -129,7 +127,9 @@ const Home: NextPage = () => {
         </NewsletterContainer>
       </MainContainer>
 
-      <MainContainer>
+      <NowPlaying />
+
+      {/*  <MainContainer>
         <PlayContainer>
           <div>
             <SiSpotify size={22} />
@@ -139,7 +139,7 @@ const Home: NextPage = () => {
             </span>
           </div>
         </PlayContainer>
-      </MainContainer>
+      </MainContainer> */}
     </>
   );
 };
