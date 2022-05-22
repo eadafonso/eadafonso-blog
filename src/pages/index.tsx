@@ -41,7 +41,7 @@ const Home: NextPage = () => {
 
           <List>
             <ListItem>🔭 I’m currently working on Eadfast</ListItem>
-            <ListItem>🌱 I’m currently learning Typescript + NextJs</ListItem>
+            <ListItem>🌱 I’m currently learning Typescript + NextJs + Stitches and Radix</ListItem>
             <ListItem>
               👯 I’m looking to collaborate on open-source projects.
             </ListItem>
