@@ -25,7 +25,7 @@ export function Header() {
           <div className="linkContent">
             <Link href="#">Home</Link>
             <Link href="#">Artigos</Link>
-            <Link href="#">Forum</Link>
+            <Link href="#">Fórum</Link>
           </div>
 
           <ButtonTheme onClick={handleColorChange}>
