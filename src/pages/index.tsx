@@ -22,6 +22,7 @@ import {
 
 import { FiArrowRight } from "react-icons/fi";
 import { NowPlaying } from "../components/NowPlaying";
+import { Footer } from "../components/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -41,7 +42,9 @@ const Home: NextPage = () => {
 
           <List>
             <ListItem>🔭 I’m currently working on Eadfast</ListItem>
-            <ListItem>🌱 I’m currently learning Typescript + NextJs + Stitches and Radix</ListItem>
+            <ListItem>
+              🌱 I’m currently learning Typescript + NextJs + Stitches and Radix
+            </ListItem>
             <ListItem>
               👯 I’m looking to collaborate on open-source projects.
             </ListItem>
@@ -129,17 +132,7 @@ const Home: NextPage = () => {
 
       <NowPlaying />
 
-      {/*  <MainContainer>
-        <PlayContainer>
-          <div>
-            <SiSpotify size={22} />
-
-            <span>
-              <b>Not Playing</b> - Spotify
-            </span>
-          </div>
-        </PlayContainer>
-      </MainContainer> */}
+      <Footer />
     </>
   );
 };

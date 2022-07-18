@@ -25,7 +25,6 @@ export function NowPlaying() {
     getData();
   }, []);
 
-  console.log(song);
   return (
     <PlayingContainer>
       <div>
