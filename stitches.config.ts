@@ -47,5 +47,4 @@ export const GlobalStyles = globalCss({
   },
 });
 
-//You can declare the styles here or in pages/_app.tsx
 GlobalStyles();
