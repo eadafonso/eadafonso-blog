@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-
 import { SiSpotify } from "react-icons/si";
 import { PlayingContainer } from "./styles";
 
