@@ -135,7 +135,7 @@ const Home: NextPage = () => {
 
       <NowPlaying />
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
